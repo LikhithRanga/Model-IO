@@ -1,0 +1,18 @@
+<model-viewer bounds="tight" enable-pan src="Space Shuttle.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="0.76" camera-orbit="32.56deg 80.61deg auto" auto-rotate exposure="0.9" shadow-softness="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="6.4256510985812625m 3.792714917272864m -5.222944379179168m" data-normal="0.9238793661228306m 0m 0.38268383406211026m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Space Rocket Booster</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="2.7065740926341917m 1.1614348562274763m 1.3707286455927772m" data-normal="0.9260941229799406m 0.11120257925009673m 0.3605324697584678m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Orbiter</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="2.601492463753715m 12.8949809329508m -5.303437514756581m" data-normal="0.8971573613717521m 0.23876946677226374m 0.37161513784258643m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Fuel Tank</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
